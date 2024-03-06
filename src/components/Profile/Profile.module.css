@@ -1,0 +1,39 @@
+.profileContainer {
+  width: auto;
+  border: 2px solid black;
+  border-radius: 4%;
+}
+.profileAvatar {
+  margin-top: 20px;
+  border-radius: 50%;
+  width: 200px;
+  background-color: #242424;
+}
+.profileName {
+  font-weight: 700;
+  font-size: xx-large;
+}
+.profileTag {
+  color: dimgrey;
+  font-size: x-large;
+}
+.profileLocation {
+  color: dimgrey;
+  font-size: x-large;
+}
+.profileList {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.profileListItem {
+  width: auto;
+  display: flex;
+  background-color: darkgrey;
+  flex-direction: column;
+  border: 1px solid grey;
+}
+.profileTitle {
+  font-size: large;
+}
